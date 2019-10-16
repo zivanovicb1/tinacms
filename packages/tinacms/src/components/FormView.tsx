@@ -226,7 +226,8 @@ const NoFormsPlaceholder = () => (
     </p>
     <p>
       <LinkButton
-        href="https://tinacms.org/docs/gatsby/markdown/#creating-remark-forms"
+        title="TinaCMS Docs - Forms"
+        href="https://tinacms.org/docs/concepts/forms"
         target="_blank"
       >
         <Emoji>📖</Emoji> Form Setup Guide
@@ -241,7 +242,8 @@ const NoFieldsPlaceholder = () => (
     <h3>Hey, you don't have any fields added to this form.</h3>
     <p>
       <LinkButton
-        href="https://tinacms.org/docs/gatsby/markdown/#creating-remark-forms"
+        title="TinaCMS Docs - Fields"
+        href="https://tinacms.org/docs/concepts/fields"
         target="_blank"
       >
         <Emoji>📖</Emoji> Field Setup Guide
