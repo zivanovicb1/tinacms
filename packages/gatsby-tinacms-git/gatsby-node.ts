@@ -16,8 +16,8 @@ limitations under the License.
 
 */
 
-import { router as gitRouter, GitRouterConfig } from '@tinacms/api-git'
+import { GitApi, GitRouterConfig } from '@tinacms/api-git'
 
 exports.onCreateDevServer = ({ app }: any, options: GitRouterConfig) => {
-  app.use('/___tina', gitRouter(options))
+  app.use('/___tina', GitApi.asRouter(options))
 }
