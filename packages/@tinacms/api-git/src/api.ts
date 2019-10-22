@@ -63,7 +63,7 @@ export class GitApi {
       })
   }
 
-  createFile = (req: express.Request, res: express.Response) => {
+  writeFile = (req: express.Request, res: express.Response) => {
     const fileRelativePath = decodeURIComponent(req.params.relPath)
     const fileAbsolutePath = path.join(this.CONTENT_ABSOLUTE_PATH, fileRelativePath)
 
@@ -168,7 +168,7 @@ export class GitApi {
     const router = express.Router()
     router.use(express.json())
     router.delete('/:relPath', this.deleteFile)
-    router.put('/:relPath', this.createFile)
+    router.put('/:relPath', this.writeFile)
     router.post('/upload', this.uploader.single('file'), this.handleUpload)
     router.post('/commit', this.commit)
     router.post('/reset', this.reset)
