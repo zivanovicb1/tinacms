@@ -19,6 +19,8 @@ gallery:
       social:
         - {}
 draft: true
+fakeAuthor:
+  name: aaaabreeeee
 ---
 
 # TootToot
