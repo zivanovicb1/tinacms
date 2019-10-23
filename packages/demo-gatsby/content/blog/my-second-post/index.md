@@ -1,8 +1,8 @@
 ---
 title: My Second Post!
-date: '2015-05-06T23:46:37.121Z'
+date: '2019-10-09T00:00:00.000Z'
 description: Test
-heading_color: '#EA4657'
+heading_color: '#E4CACC'
 draft: false
 thumbnail: ../hello-world/salty_egg.jpg
 ---
