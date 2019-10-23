@@ -1,7 +1,7 @@
 ---
 title: ' Tinaxxxxxxaaa'
 date: '2019-09-18T03:00:00.000Z'
-heading_color: pink
+heading_color: '#B64B5E'
 description: My new post. xxxxx
 blocks:
   - _template: heading
